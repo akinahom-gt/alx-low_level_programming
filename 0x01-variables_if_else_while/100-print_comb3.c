@@ -11,7 +11,7 @@ int main(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		for (num2 += 1; num2 <= 9; num2++)
+		for (num2 = num + 1; num2 <= 9; num2++)
 		{
 			putchar(num + '0');
 			putchar(num2 + '0');
